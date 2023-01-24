@@ -1,5 +1,5 @@
 body {
-  background-color: #1a1a1a;
+  background-color: #B91450;
   color: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -10,25 +10,28 @@ body {
   justify-content: center;
 }
 
+.container {
+  background-color: #fff;
+  color: black;
+  height: 200px; 
+  width: 800px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
 input[type=text] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid #00bfff;
-  font-size: 16px;
-  color: #fff;
-  background-color: #1a1a1a;
+
   }
   
   button {
-  background-color: #00bfff;
-  color: #fff;
-  padding: 12px 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
+
   }
   
   #costo{
