@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   height: 100vh;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,20 +22,53 @@ body {
   justify-content: space-around;
 }
 
+.container1 {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  height: 200px; 
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.biglietto {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgray;
+}
+
+#biglietto-generato {
+  display: none;
+}
+
 .inputs {
   display: flex;
   justify-content: space-around;
 }
 
-input[type=text] {
+.inputs p {
+  color: #B91450;
+  font-weight: 600;
+}
 
+input[type=text],
+select {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #B91450;
+  border-radius: 5px;
   }
   
-  button {
-
+button {
+  padding: 5px;
+  color: #B91450;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 15px;
   }
   
-  #costo{
+#costo{
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;

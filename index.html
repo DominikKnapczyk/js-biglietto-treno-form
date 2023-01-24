@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
   <div class="container">
     <div class="inputs">
@@ -26,13 +27,47 @@
     </div>
     <div class="buttons">
       <button onclick="generaPrezzo()">Genera</button>
-      <button onclick="">Annulla</button>
+      <button onclick="annullaBiglietto()">Annulla</button>
+    </div>
+  </div>
+
+  <div id="biglietto-generato">
+    <h2>IL TUO BIGLIETTO</h2>
+    <div class="container1">
+      <h3>DETTAGLIO PASSEGGERI</h3>
+      <div class="biglietto">
+        <div class="nome-biglietto">
+          <h4>Nome Passeggero</h4>
+          <p id="nome-biglietto"></p>
+        </div>
+        <div class="offerta-biglietto">
+          <h4>Offerta</h4>
+          <p>Biglietto standard</p>
+        </div>
+        <div class="carrozza-biglietto">
+          <h4>Carrozza</h4>
+          <p>5</p>
+        </div>
+        <div class="offerta-biglietto">
+          <h4>Codice CP</h4>
+          <p>92911</p>
+        </div>
+        <div class="costo-biglietto">
+          <h4>Costo Biglietto</h4>
+          <p id="prezzo"></p>
+        </div>
+      </div>
     </div>
   </div>
 
 
-  <h2>IL TUO BIGLIETTO</h2>
-  <p id="prezzo"></p>
+
+
+
+
+
+
+
 
 <script src="script.js"></script>
 </body>
